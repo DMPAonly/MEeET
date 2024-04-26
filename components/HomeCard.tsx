@@ -16,7 +16,7 @@ const HomeCard = ({ className, img, title, description, handleClick }: HomeCardP
   return (
     <section
       className={cn(
-        'bg-orange-1 px-4 py-6 flex flex-col justify-between w-full xl:rounded-[10px] cursor-pointer',
+        'bg-mettalic1-1 px-4 py-6 flex flex-col justify-between w-full xl:rounded-[10px] cursor-pointer',
         className
       )}
       onClick={handleClick}
